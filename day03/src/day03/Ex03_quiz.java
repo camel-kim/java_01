@@ -19,6 +19,8 @@ public class Ex03_quiz {
 				System.out.println("10년뒤 사용자는 아직 미성년자 입니다.");
 			}
 		}
+		
+		input.close();
 	}
 
 }

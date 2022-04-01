@@ -17,6 +17,7 @@ public class Ex01 {
 		
 		System.out.println("출력 결과 : " + str);
 		System.out.println("다음 문장들 실행!!!");
+		input.close();
 
 	}
 

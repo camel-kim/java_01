@@ -17,6 +17,8 @@ public class Ex02_quiz {
 		System.out.println("num1 : " + num1 + " ,num2 : " + num2);
 		String s2 = (num1 > num2) ? "num1이 num2보다 크다" : "num2가 num1보다 크다";
 		System.out.println(s2);
+		
+		input.close();
 
 	}
 

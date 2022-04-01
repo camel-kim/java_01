@@ -58,6 +58,7 @@ public class Ex01_Quiz {
 				break;
 
 			}
+			sc.close();
 		}
 	}
 

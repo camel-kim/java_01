@@ -32,6 +32,7 @@ public class Ex01_switch_while {
 		//문자열로 사용 가능하나 쓰는 경우 거의 없음..
 		System.out.println("문자열 입력");
 		String s = sc.next();
+		sc.close();
 		switch (s) {
 		case "안녕" :
 			System.out.println(s+"하세요");
@@ -46,7 +47,6 @@ public class Ex01_switch_while {
 		*/
 		while (true) {
 			System.out.println("이름 입력");
-			s = sc.next();
 			System.out.println("당신 이름 : " + s + "군요");
 		}
 		

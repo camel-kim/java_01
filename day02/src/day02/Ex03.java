@@ -17,15 +17,17 @@ public class Ex03 {
 		age = input.nextInt(); // 정수를 입력 받음
 		System.out.println("나이 : " + age + "살");
 
-		int k = 0, e = 0;
-		char c = 0;
-		double d = 0;
-		float f = 0;
+//		int k = 0, e = 0;
+//		char c = 0;
+//		double d = 0;
+//		float f = 0;
+		
 //		초기화 방법.
 //		첫번째 글자가 소문자로 되어있는 표현식은 0 이라는 값으로 초기화 한다.
 		String n = null;
 //		첫번째 글자가 대문자로 되어있는 표현식은 null 이라는 값으로 초기화 한다.
 
 		System.out.println(n);
+		input.close();
 	}
 }

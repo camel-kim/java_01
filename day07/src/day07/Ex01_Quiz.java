@@ -55,7 +55,7 @@ public class Ex01_Quiz {
 		System.out.println();
 		System.out.println();
 
-		int result = 0, oddSum = 0, evenSum = 0;
+		int oddSum = 0, evenSum = 0;
 		odd = 1;
 		even = 0;
 		for (int i = 0; i < resultArr.length; i++) {

@@ -25,6 +25,7 @@ public class Ex03_quiz01 {
 				System.out.println(num3+num1+num2);
 			}
 		}
+		input.close();
 	}
 
 }

@@ -48,5 +48,7 @@ public class Ex03_if {
 			System.out.println("입력 값 홀수 : " + num);
 		}
 		System.out.println("다음 문장들 실행!!!!");
+		
+		input.close();
 	}
 }

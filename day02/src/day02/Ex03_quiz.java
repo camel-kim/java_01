@@ -25,5 +25,6 @@ public class Ex03_quiz {
 		System.out.println("====================");
 		System.out.println("평균 :\t" + (((double) a + b + c) / 3));
 		System.out.println("====================");
+		input.close();
 	}
 }

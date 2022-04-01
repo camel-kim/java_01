@@ -1,10 +1,13 @@
 package day08;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Ex02_Quiz_teacher {
 	public static void main(String [] args){
 		   Scanner input = new Scanner(System.in);
-		   ArrayList name = new ArrayList();
-		   ArrayList phNum = new ArrayList();
+		   ArrayList<String> name = new ArrayList<String>();
+		   ArrayList<String> phNum = new ArrayList<String>();
 		   String n,p;
 		   int num=0,result=0;
 		   boolean bool = true;
@@ -52,5 +55,6 @@ public class Ex02_Quiz_teacher {
 		      }
 		   }
 		   System.out.println("종료 합니다~!");
+		   input.close();
 		}
 }

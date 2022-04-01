@@ -1,11 +1,8 @@
 package day05;
 
-import java.util.Scanner;
-
 public class Ex02_Quiz {
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
 		System.out.println("문제 1번");
 		for (int i = 1; i <= 4; i++) {
 			System.out.println(i + ".hello");
@@ -75,6 +72,7 @@ public class Ex02_Quiz {
 		}
 		day--;
 		System.out.println(day + "일" + mouse + "마리");
+		
 	}
 
 }

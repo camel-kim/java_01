@@ -58,11 +58,11 @@ public class Ex02 {
 		*/
 		System.out.println(false || false);
 		System.out.println(false || true);
-		System.out.println(true || false);
-		System.out.println(true || true);
+		System.out.println(true); //(true || false);
+		System.out.println(true); //(true || true);
 		
-		System.out.println(false && false);
-		System.out.println(false && true);
+		System.out.println(false); //(false && false);
+		System.out.println(false); //(false && true);
 		System.out.println(true && false);
 		System.out.println(true && true);
 		
@@ -109,6 +109,8 @@ public class Ex02 {
 		su1 = 8;
 		String s = (su1 % 2 == 0)?"짝수" : "홀수" ;
 		System.out.println( s );
+		
+		
 	}
 
 }
