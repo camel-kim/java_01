@@ -1,0 +1,12 @@
+package Quiz02_;
+
+import java.util.Scanner;
+
+public class Ouiz02 {
+	public static void main(String[] args) {
+		Test01 t01 = new Test01();
+		t01.result1();
+		
+	}
+
+}

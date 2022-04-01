@@ -1,0 +1,14 @@
+package Ex05_;
+
+public class Test05 {
+	public int input() {
+		int num = 10;
+		return num;
+	}
+	public void print(String re) {
+		System.out.println(re);
+	}
+	public void op() {
+		int result = input();
+	}
+}

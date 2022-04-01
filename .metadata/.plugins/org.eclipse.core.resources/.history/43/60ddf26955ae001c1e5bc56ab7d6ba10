@@ -1,0 +1,31 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Ex01_Quiz {
+	public static void main(String[] args) {
+		int[] num = new int[] { 10, 54, 13, 17, 25, 30 };
+		for (int num2 : num) {
+			if (num2 % 2 == 0) {
+				System.out.println("짝수 : " + num2);
+			} else {
+				System.out.println("홀수 : " + num2);
+			}
+		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("짝수, 홀수 입력 : ");
+		String st = sc.next();
+		String a = "짝수";
+		String b = "홀수";
+		for (int num2 : num) {
+			if (st.equals(a) && num2 % 2 == 0) {
+				System.out.println("짝수 : " + num2);
+			}
+			if (st.equals(b) && num2 % 2 == 1) {
+				System.out.println("홀수 : " + num2);
+			}
+		}
+		sc.close();
+	}
+
+}

@@ -1,0 +1,42 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Ex01_Quiz {
+	public static void main(String[] args) {
+		int[] num = new int[] { 10, 54, 13, 17, 25, 30 };
+		for (int num2 : num) {
+			if (num2 % 2 == 0) {
+				System.out.println("짝수 : " + num2);
+			} else {
+				System.out.println("홀수 : " + num2);
+			}
+		}
+		System.out.println();
+		System.out.println();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("짝수, 홀수 입력 : ");
+		String st = sc.next();
+		for (int num2 : num) {
+			if ("짝수".equals(st) && num2 % 2 == 0) {
+				System.out.println("짝수 : " + num2);
+			}else if ("홀수".equals(st) && num2 % 2 != 0) {
+				System.out.println("홀수 : " + num2);
+			}
+		}
+		System.out.println();
+		System.out.println();
+		
+		int[] arr = new int[] {10,17,3,9,27,10,8,9,13,21};
+		int[] invert_arr = new int[arr.length];
+		for(int i = 0; i < arr.length; i++ ) {
+			int temp = arr[i];
+			invert_arr[i] = arr[arr.length-i-1];
+			arr[i]=temp;
+		}
+		System.out.println("리버스 후 배열 : " + Arrays.toString(invert_arr) );
+		sc.close();
+	}
+
+}

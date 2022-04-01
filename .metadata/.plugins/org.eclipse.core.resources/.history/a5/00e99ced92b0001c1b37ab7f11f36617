@@ -1,0 +1,11 @@
+package Ex03_;
+
+import java.util.Scanner;
+
+public class Test03 {
+	public void sumFunc() {
+		Scanner sc = new Scanner(System.in);
+		int num1, num2, sun = 0;
+	}
+
+}

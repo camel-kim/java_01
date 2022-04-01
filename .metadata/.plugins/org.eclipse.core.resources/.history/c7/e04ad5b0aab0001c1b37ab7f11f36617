@@ -1,0 +1,16 @@
+package Ex05_;
+
+public class Test05 {
+	public int input() {
+		int num = 10;
+		return num;
+	}
+	public void print(int num, String re) {
+		System.out.println(num + re);
+	}
+	public void op() {
+		int result = input();
+		// if 짝 홀 
+		print(result,"짝수");
+	}
+}

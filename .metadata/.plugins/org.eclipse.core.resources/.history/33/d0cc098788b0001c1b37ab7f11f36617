@@ -1,0 +1,15 @@
+package day10;
+
+		/*
+		class
+		- 하나의 자료형이다
+		- 반복적으로 사용하기 위한 툴
+		- class 형으로 변수를 만들면 보통 객체라고 표현한다
+ 		*/
+// 하나의 틀안에 작동을 위한것들을 넣어 놓은 절차지향언어 - 무거움
+// 각 각 기능별로 객체지향형 - 객체지향형
+public class Ex01_Class {
+	public static void main(String[] args) {
+	}
+
+}

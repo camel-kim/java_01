@@ -1,0 +1,12 @@
+package day09;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		String id = "test    ";
+		String idChk = "test";
+		System.out.println(id);
+		System.out.println(idChk);
+	}
+
+}

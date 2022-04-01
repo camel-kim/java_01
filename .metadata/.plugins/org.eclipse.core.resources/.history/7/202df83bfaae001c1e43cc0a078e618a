@@ -1,0 +1,13 @@
+package day08;
+
+public class Ex02 {
+	public static void main(String[] args) {
+		/*
+		컬렉션
+		-자료구조
+		프레임워크
+		-뼈대, 틀 형식에 맞춰져 있다.
+		*/
+	}
+
+}

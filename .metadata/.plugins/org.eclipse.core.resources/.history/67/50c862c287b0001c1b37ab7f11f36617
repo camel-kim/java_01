@@ -1,0 +1,13 @@
+package day10;
+
+public class Ex01_Class {
+	public static void main(String[] args) {
+		/*
+		class
+		- 하나의 자료형이다
+		- 반복적으로 사용하기 위한 툴
+		- class 형으로 변수를 만들면 보통 객체라고 표현한다
+		*/
+	}
+
+}

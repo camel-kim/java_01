@@ -1,0 +1,8 @@
+package Ex03_;
+
+import java.util.Scanner;
+
+public class Ex03 {
+	Scanner sc = new Scanner(System.in);
+	int num1, num2, sun = 0;
+}

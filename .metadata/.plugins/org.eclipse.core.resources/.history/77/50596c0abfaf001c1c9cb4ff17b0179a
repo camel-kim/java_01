@@ -1,0 +1,13 @@
+package day09;
+
+public class Ex01_map {
+	public static void main(String[] args) {
+		/*
+		map
+		- 키와 값의 쌍으로 이루어진 데이터의 집합
+		- 순서는 유지되지 않는다
+		- 키의 중복은 허용하지 않으며, 값의 중복은 허용
+		*/
+	}
+
+}

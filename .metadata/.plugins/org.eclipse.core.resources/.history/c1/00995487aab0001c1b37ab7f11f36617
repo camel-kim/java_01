@@ -1,0 +1,26 @@
+package Ex05_;
+
+import java.util.Scanner;
+
+public class Ex05 {
+	public static void main(String[] args) {
+		Test05 t05 = new Test05();
+		t05.op();
+		
+	}
+	
+	public int input02() {
+		//Scanner in = new Scanner(System.in);
+		// int num = in.nextInt();
+		// return num;
+		return new Scanner(System.in).nextInt();
+	}
+	public String op02(int num) {
+		if(num % 2 == 0) {
+			return "짝수";
+		}else {
+			return "홀수 ;
+		}
+	}
+
+}
