@@ -2,7 +2,6 @@ package Quiz;
 
 public class Quiz01 {
 	public static void main(String[] args) {
-		int best = 0;
 		Test01 t = new Test01();
 		for (;;) {
 			System.out.println("=== UP & Down Game ===");

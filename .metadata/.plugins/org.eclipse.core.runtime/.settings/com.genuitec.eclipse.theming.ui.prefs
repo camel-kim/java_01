@@ -1,9 +1,11 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1624986146000
-configurationInstallLocation=/D\:/\uCDE8\uC5C5\uBC18_\uAE40\uC900\uC624/java/eclipse/
+configurationInstallLocation=/C\:/Users/coco/Desktop/Folder/IT/eclipse/
+ct.upsell.display.after=1649066355385
 eclipse.preferences.version=1
 iconcolormode=primary
-last.download.attempt.time=1648790539930
-lastConfiguration=1648790533608
-newinstall=true
+last.download.attempt.time=1648807716652
+lastConfiguration=1648807710172
+newinstall=false
+showWelcomeDialog=false
 workbench.theme=Dark Gray
