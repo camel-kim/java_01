@@ -12,9 +12,14 @@
     <fullyQualifiedTypeName name="day10.Member"/>
     <fullyQualifiedTypeName name="day10.Test02"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="Quiz02_.Test01"/>
     <fullyQualifiedTypeName name="day11.Test06_1"/>
     <fullyQualifiedTypeName name="javax.swing.text.DefaultTextUI"/>
+    <fullyQualifiedTypeName name="Quiz.Ex01_Timer"/>
+    <fullyQualifiedTypeName name="Quiz.TimerQuiz"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 </qualifiedTypeNameHistroy>
